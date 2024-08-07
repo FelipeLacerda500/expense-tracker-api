@@ -4,7 +4,8 @@
   "description": "Expense Tracker API is an API for managing expenses, allowing users to record, update, and delete expenditures while providing metrics such as daily and monthly expense totals. The API facilitates personal or business financial management.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "precommit-lint": "lint-staged"
   },
   "author": "Felipe Lacerda Fernandes de Assis",
   "license": "ISC",
