@@ -7,7 +7,8 @@
     "dev": "tsx watch src/server.ts",
     "precommit-lint": "lint-staged",
     "prepare": "husky",
-    "migrate": "prisma migrate dev --name create-expense"
+    "migrate": "prisma migrate dev --name create-expense",
+    "build": "tsup src --out-dir dist --minify --clean"
   },
   "author": "Felipe Lacerda Fernandes de Assis",
   "license": "ISC",
