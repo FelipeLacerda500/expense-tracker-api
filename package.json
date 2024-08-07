@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "precommit-lint": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "migrate": "prisma migrate dev --name create-expense"
   },
   "author": "Felipe Lacerda Fernandes de Assis",
   "license": "ISC",
