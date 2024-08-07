@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "precommit-lint": "lint-staged"
+    "precommit-lint": "lint-staged",
+    "prepare": "husky"
   },
   "author": "Felipe Lacerda Fernandes de Assis",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-prettier": "5.2.1",
+    "husky": "9.1.5",
     "lint-staged": "15.2.9",
     "prettier": "3.3.3",
     "tsx": "4.17.0",
