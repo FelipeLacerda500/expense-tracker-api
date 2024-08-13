@@ -7,4 +7,8 @@ export class ValidationError extends Error {
   ) {
     super(message || 'Os dados fornecidos são inválidos.');
   }
+
+  public getParams(): IParamErrors {
+    return this.params;
+  }
 }
